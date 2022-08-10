@@ -13,8 +13,8 @@ namespace OperatorExercise
 
             double a = 17;
             double b = 4;
-            double ans = a + b;
-            return ans;
+            double add = a + b;
+            return add;
 
 
         }
@@ -52,7 +52,12 @@ namespace OperatorExercise
 
             double a = 17;
             double b = 4;
-            double R = 17 % 4; 
+            double R = 17 % 4;
+            if (a == 17 && b == 4)
+            {
+            
+
+            }
             return R;
         }
 
@@ -61,7 +66,8 @@ namespace OperatorExercise
             
             double radius = Double.Parse(Console.ReadLine());
             radius = Math.PI * Math.Pow(radius, 2);
-            return (float)radius;
+            return (float)Math.Round(radius, 2);
+          
 
 
 
