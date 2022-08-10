@@ -66,7 +66,8 @@ namespace OperatorExercise
             
             double radius = Double.Parse(Console.ReadLine());
             radius = Math.PI * Math.Pow(radius, 2);
-            return (float)Math.Round(radius, 2);
+            return (float)radius;
+            
           
 
 
